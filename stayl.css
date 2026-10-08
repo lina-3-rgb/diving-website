@@ -1,14 +1,28 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.heder body.clic {
-  margin: 0;
+.heder {
+  background-image: url(./Daiver.png);
+  justify-content: space-between;
+  position: sticky;
+  width: 100%;
+  height: 100%;
+}
+.heder-clic {
+  background: transparent;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  background: url("./Daiver.png") center/cover no-repeat fixed;
+  border: none;
+}
+.heder-clic-info {
+  display: flex;
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  margin: 65px 21px;
+  font-weight: 500;
+  width: 766px;
 }/*# sourceMappingURL=stayl.css.map */
