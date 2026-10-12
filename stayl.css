@@ -5,24 +5,59 @@
 }
 
 .heder {
-  background-image: url(./Daiver.png);
-  justify-content: space-between;
-  position: sticky;
+  background-image: url(./png/Daiver.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 260px;
+  position: relative;
+  z-index: 100;
+  padding: 40px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .heder-clic {
   background: transparent;
   display: flex;
   border: none;
+  gap: 30px;
 }
 .heder-clic-info {
-  display: flex;
   border: none;
   background: transparent;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
-  margin: 65px 21px;
-  font-weight: 500;
-  width: 766px;
+  font-size: 16px;
+}
+.heder-clic-sv {
+  background: #ffffff;
+  border: none;
+  border-radius: 13px;
+  color: #000000;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+.heder-web {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.heder-web-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heder-logo {
+  position: absolute;
+  bottom: 40px;
+  left: 90px;
+}
+.heder-logo img {
+  display: block;
+  width: 308px;
+  height: auto;
 }/*# sourceMappingURL=stayl.css.map */

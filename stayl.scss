@@ -1,4 +1,6 @@
-$color-txt: #ffff;
+$color-txt: #ffffff;
+$color-btn: #ffffff;
+$color-btn-txt: #000000;
 
 * {
     margin: 0;
@@ -7,32 +9,66 @@ $color-txt: #ffff;
 }
 
 .heder {
-
-    background-image: url(./Daiver.png);
-    justify-content: space-between;
-    position: sticky;
+    background-image: url(./png/Daiver.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 260px;
+    position: relative;
+    z-index: 100;
+    padding: 40px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 
     &-clic {
         background: transparent;
         display: flex;
         border: none;
-        
+        gap: 30px;
 
         &-info {
-            display: flex;
             border: none;
             background: transparent;
             color: $color-txt;
             cursor: pointer;
-            margin:65px 21px;
-            font-weight: 500;
-            width: 766px;
+            font-size: 16px;
+        }
 
-
+        &-sv {
+            background: $color-btn;
+            border: none;
+            border-radius: 13px;
+            color: $color-btn-txt;
+            padding: 10px 25px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
         }
     }
 
+    &-web {
+        display: flex;
+        align-items: center;
+        gap: 15px;
 
+        &-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &-logo {
+        position: absolute;
+        bottom: 40px;
+        left: 90px;
+
+        img {
+            display: block;
+            width: 308px;
+            height: auto;
+        }
+    }
 }
