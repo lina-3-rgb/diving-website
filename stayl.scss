@@ -75,7 +75,7 @@ $color-btn-txt: #000000;
 
     &-logo {
 
-        &-img{
+        &-img {
             margin-bottom: 83px;
         }
 
@@ -85,7 +85,7 @@ $color-btn-txt: #000000;
                 width: 435px;
                 color: $color-txt;
                 margin-bottom: 12px;
-                
+
 
             }
 
@@ -97,16 +97,48 @@ $color-btn-txt: #000000;
                 border-radius: 13px;
                 border: 3px solid #ffffff;
                 font-size: 24px;
+                margin-bottom: 60px;
 
 
             }
         }
     }
-    &-infrom{
-        
-        &-text{
-            
+
+    &-inform {
+        display: flex;
+        justify-content: space-between;
+        width: 550px;
+
+        &-text {
+            color: $color-txt;
+            font-size: 24px
+        }
+
+        &-por {
+            color: $color-txt;
+            font-size: 24px
         }
     }
+
+    &-advice {
+        width: 365px;
+        
+
+        &-alignment {
+            display: flex;
+        }
+
+        &-available {
+            color: $color-txt;
+
+
+        }
+
+        &-stocks {
+            color: $color-txt;
+        }
+        
+    }
+
 
 }
