@@ -121,44 +121,83 @@ $color-btn-txt: #000000;
         }
     }
 
-    &-advice {
-        width: 367px;
-        background: linear-gradient(to top, #1E549F, #1474B800);
-        border-radius: 13px;
+    &-cards {
+        display: flex;
+        justify-content: space-between;
 
-        &-alignment {
-            display: flex;
-            justify-content: center;
+        &-advice {
+            width: 367px;
+            background: linear-gradient(to top, #1E549F, #1474B800);
+            border-radius: 13px;
 
-            &-flippers{
-                margin-right: 10px;
+            &-alignment {
+                display: flex;
+                justify-content: center;
+
+                &-flippers {
+                    margin-right: 10px;
+                }
+            }
+
+            &-available {
+                color: $color-txt;
+                padding-bottom: 10px;
+            }
+
+            &-stocks {
+                color: $color-txt;
+                padding-bottom: 24px;
+                font-size: 16px;
+                text-align: center;
+            }
+
+            &-learn {
+                width: 365px;
+                font-size: 18px;
+                border-radius: 7px;
+                background: linear-gradient(to top, #55ABF5, #5FC9F3);
+                color: $color-txt;
+                border: transparent;
+                padding: 8px 118px;
+                cursor: pointer;
+
+            }
+        }
+        &-comments{
+             width: 367px;
+            background: linear-gradient(to top, #1E549F, #1474B800);
+            border-radius: 13px;
+
+            &-record{
+                 display: flex;
+                justify-content: center;
+                &-no{
+                    margin-right: 5px;
+                }
+            }
+            &-onl{
+                 color: $color-txt;
+                padding-bottom: 10px;
+            }
+            &-phone{
+                color: $color-txt;
+                padding-bottom: 24px;
+                font-size: 16px;
+                text-align: center;
+            }
+            &-question{
+                width: 365px;
+                font-size: 16px;
+                border-radius: 7px;
+                background: linear-gradient(to top, #55ABF5, #5FC9F3);
+                color: $color-txt;
+                border: transparent;
+                padding: 8px 118px;
+                cursor: pointer;
+                
             }
         }
 
-        &-available {
-            color: $color-txt;
-            padding-bottom: 10px;
-        }
-
-        &-stocks {
-            color: $color-txt;
-            padding-bottom: 24px;
-            font-size: 16px;
-            text-align: center;
-        }
-
-        &-learn {
-            width: 365px;
-            font-size: 18px;
-            border-radius: 7px;
-            background: linear-gradient(to top, #55ABF5, #5FC9F3);
-            color: $color-txt;
-            border: transparent;
-            padding: 8px 118px;
-            cursor: pointer;
-            
-        }
     }
-
 
 }
