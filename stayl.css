@@ -12,7 +12,7 @@
   width: 100%;
   position: relative;
   z-index: 100;
-  padding: 40px 90px;
+  padding: 40px 90px 52px;
   align-items: flex-start;
 }
 .heder-wrp {
@@ -78,6 +78,7 @@
   display: flex;
   justify-content: space-between;
   width: 550px;
+  margin-bottom: 125px;
 }
 .heder-inform-text {
   color: #ffffff;
@@ -88,14 +89,34 @@
   font-size: 24px;
 }
 .heder-advice {
-  width: 365px;
+  width: 367px;
+  background: linear-gradient(to top, #1E549F, rgba(20, 116, 184, 0));
+  border-radius: 13px;
 }
 .heder-advice-alignment {
   display: flex;
+  justify-content: center;
+}
+.heder-advice-alignment-flippers {
+  margin-right: 10px;
 }
 .heder-advice-available {
   color: #ffffff;
+  padding-bottom: 10px;
 }
 .heder-advice-stocks {
   color: #ffffff;
+  padding-bottom: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+.heder-advice-learn {
+  width: 365px;
+  font-size: 18px;
+  border-radius: 7px;
+  background: linear-gradient(to top, #55ABF5, #5FC9F3);
+  color: #ffffff;
+  border: transparent;
+  padding: 8px 118px;
+  cursor: pointer;
 }/*# sourceMappingURL=stayl.css.map */

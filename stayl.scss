@@ -16,7 +16,7 @@ $color-btn-txt: #000000;
     width: 100%;
     position: relative;
     z-index: 100;
-    padding: 40px 90px;
+    padding: 40px 90px 52px;
 
     align-items: flex-start;
 
@@ -108,6 +108,7 @@ $color-btn-txt: #000000;
         display: flex;
         justify-content: space-between;
         width: 550px;
+        margin-bottom: 125px;
 
         &-text {
             color: $color-txt;
@@ -121,23 +122,42 @@ $color-btn-txt: #000000;
     }
 
     &-advice {
-        width: 365px;
-        
+        width: 367px;
+        background: linear-gradient(to top, #1E549F, #1474B800);
+        border-radius: 13px;
 
         &-alignment {
             display: flex;
+            justify-content: center;
+
+            &-flippers{
+                margin-right: 10px;
+            }
         }
 
         &-available {
             color: $color-txt;
-
-
+            padding-bottom: 10px;
         }
 
         &-stocks {
             color: $color-txt;
+            padding-bottom: 24px;
+            font-size: 16px;
+            text-align: center;
         }
-        
+
+        &-learn {
+            width: 365px;
+            font-size: 18px;
+            border-radius: 7px;
+            background: linear-gradient(to top, #55ABF5, #5FC9F3);
+            color: $color-txt;
+            border: transparent;
+            padding: 8px 118px;
+            cursor: pointer;
+            
+        }
     }
 
 
