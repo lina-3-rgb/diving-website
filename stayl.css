@@ -91,6 +91,7 @@
 .heder-cards {
   display: flex;
   justify-content: space-between;
+  width: 1700px;
 }
 .heder-cards-advice {
   width: 367px;
@@ -110,13 +111,13 @@
 }
 .heder-cards-advice-stocks {
   color: #ffffff;
-  padding-bottom: 24px;
+  padding-bottom: 40px;
   font-size: 16px;
   text-align: center;
 }
 .heder-cards-advice-learn {
   width: 365px;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 7px;
   background: linear-gradient(to top, #55ABF5, #5FC9F3);
   color: #ffffff;
@@ -147,6 +148,38 @@
   text-align: center;
 }
 .heder-cards-comments-question {
+  width: 365px;
+  font-size: 16px;
+  border-radius: 7px;
+  background: linear-gradient(to top, #55ABF5, #5FC9F3);
+  color: #ffffff;
+  border: transparent;
+  padding: 8px 118px;
+  cursor: pointer;
+}
+.heder-cards-documents {
+  width: 367px;
+  background: linear-gradient(to top, #1E549F, rgba(20, 116, 184, 0));
+  border-radius: 13px;
+}
+.heder-cards-documents-svg {
+  display: flex;
+  justify-content: center;
+}
+.heder-cards-documents-svg-point {
+  margin-right: 5px;
+}
+.heder-cards-documents-certificates {
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.heder-cards-documents-frends {
+  color: #ffffff;
+  padding-bottom: 41px;
+  font-size: 16px;
+  text-align: center;
+}
+.heder-cards-documents-acquire {
   width: 365px;
   font-size: 16px;
   border-radius: 7px;
