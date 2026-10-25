@@ -2,6 +2,7 @@ $color-txt: #ffffff;
 $color-btn: #ffffff;
 $color-btn-txt: hsl(0, 0%, 0%);
 $color-te: #103a58;
+$color-paragraf: #5FC9F3;
 
 * {
     margin: 0;
@@ -18,6 +19,7 @@ $color-te: #103a58;
     position: relative;
     z-index: 100;
     padding: 40px 90px 166px;
+    margin-bottom: 69px;
 
     align-items: flex-start;
 
@@ -250,41 +252,80 @@ $color-te: #103a58;
 
 }
 
+
 .main {
-    width: 1200px;
-    margin: 0 auto;
+    &-hi {
+        width: 1200px;
+        margin: 0 auto;
 
-    &-voln {
-        width: 100%;
+        &-voln {
+            width: 100%;
+        }
+
+        &-voln {
+            margin-bottom: 100px;
+        }
+
+        &-training {
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 10%;
+            text-transform: uppercase;
+            color: $color-te;
+            text-align: center;
+            opacity: 0.5;
+
+
+
+            &-hello {
+                font-size: 18px;
+                line-height: 100%;
+                letter-spacing: 10%;
+                color: $color-te;
+                opacity: 0.5;
+                text-align: center;
+                margin-bottom: 64px;
+
+            }
+        }
+
+
+        &-title {
+            text-align: center;
+            color: $color-te;
+            font-size: 64px;
+            margin-bottom: 24px;
+
+            &-moscow {
+                color: $color-paragraf;
+            }
+        }
     }
 
-    &-voln {
-        margin-bottom: 100px;
-    }
+    &-catch {
+        &-speed {
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 10%;
+            color: $color-te;
+            opacity: 0.5;
+            text-align: center;
+        }
+        &-hot{
+            text-align: center;
+            color: $color-te;
+            font-size: 64px;
+            margin-bottom: 24px;
 
-    &-training {
-        font-size: 20px;
-        line-height: 100%;
-        letter-spacing: 10%;
-        text-transform: uppercase;
-        color: $color-te;
-        text-align: center;
-        opacity: 0.5;
+            &-shadow{
+                &-shadow{
+                    width: 318px;
+                    
+                }
+            }
+            
+        }
+        
 
-        &-hello{
-        font-size: 18px;
-        line-height: 100%;
-        letter-spacing: 10%;
-        color: $color-te;
-        opacity: 0.5;
-        text-align: center;
     }
-    }
-
-    &-png {
-        display: flex;
-        justify-content: center;
-    }
-   
-
 }
