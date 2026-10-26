@@ -311,21 +311,36 @@ $color-paragraf: #5FC9F3;
             opacity: 0.5;
             text-align: center;
         }
-        &-hot{
+
+        &-hot {
             text-align: center;
             color: $color-te;
             font-size: 64px;
             margin-bottom: 24px;
 
-            &-shadow{
-                &-shadow{
+            &-shadow {
+                &-shadow {
                     width: 318px;
-                    
+
                 }
             }
-            
+
+            &-shadow {
+                width: 1440px;
+
+                &-plashka {
+                    width: 320px;
+
+                    &-image {
+                        border-radius: 10px;
+
+
+                    }
+                }
+            }
         }
-        
+
+
 
     }
 }
