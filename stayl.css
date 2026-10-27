@@ -344,8 +344,6 @@ body {
 .reviews-card--side .reviews-card__text {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
 .reviews-card--active {
   background: #ffffff;
